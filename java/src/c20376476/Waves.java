@@ -1,0 +1,30 @@
+package c20376476;
+
+import processing.core.*;
+
+public class Waves 
+{
+    MayowasVisual mv;
+    float cy = 0;
+
+    public Waves(MayowasVisual mv)
+    {
+        this.mv = mv;
+        cy = this.mv.height / 2;
+    }
+
+    public void render()
+    {
+        mv.colorMode(PApplet.HSB);
+        for(int i = 0 ; i < mv.getAudioBuffer().size() ; i ++)
+        {
+            mv.stroke(
+                PApplet.map(i, 0, mv.getAudioBuffer().size(), 0, 255)
+                , 255
+                , 255
+            );
+
+            mv.line(i, cy, i, cy + cy * mv.getAudioBuffer().get(i));
+        }
+    }
+}
