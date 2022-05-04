@@ -71,7 +71,18 @@ public class MayowasVisual extends Visual
         calculateFrequencyBands(); 
 
         // Call this is you want to get the average amplitude
-        calculateAverageAmplitude();    
+        calculateAverageAmplitude();
+        
+        /*fill(255, 165, 0);
+        stroke(0, 255, 255);
+        rect(width * 0.25f, height * 0.25f, (width / 2), (height / 2) * 0.33f);
+        text("Emmanuel", (width * 0.25f) + ((width / 2) / 2), );
+        fill(0, 128, 0);
+        rect(width * 0.25f, (height * 0.25f) + (height / 2) * 0.33f, (width / 2), (height / 2) * 0.33f);
+        fill(234, 221, 202);
+        rect(width * 0.25f, (height * 0.25f) + ((height / 2) * 0.33f  * 2), (width / 2), (height / 2) * 0.33f);*/
+
+
 
         switch(mode)
         {
