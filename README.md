@@ -1,8 +1,8 @@
 # Music Visualiser Project
 
-Name:
+Names: Emmanuel Babarinde, Oluwamayowa Adelaja, Providence Obiozor
 
-Student Number: 
+Student Number: C20407614, C20376476, C20499732
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment
@@ -12,10 +12,12 @@ Student Number:
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
+This is an assignment that provides various visuals to the song "Happy" by Pharrell Williams.
 
 # Instructions
 
 # How it works
+You press the space bar to start the music, you are also presented with the option to press 'e', 'm' or 'p' to look at our respective visuals.
 
 # What I am most proud of in the assignment
 
