@@ -4,9 +4,9 @@ import processing.core.*;
 
 public class AudioBands 
 {
-    MayowasVisual mv;
+    Menu mv;
 
-    public AudioBands(MayowasVisual mv)
+    public AudioBands(Menu mv)
     {
         this.mv = mv; 
     }

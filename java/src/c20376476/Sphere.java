@@ -1,19 +1,15 @@
 package c20376476;
-
-import processing.core.*;
-
 public class Sphere 
 {
-    MayowasVisual mv;
+    Menu mv;
 
-    public Sphere(MayowasVisual mv)
+    public Sphere(Menu mv)
     {
         this.mv = mv; 
     }
 
     void draw() 
     {
-        mv.background(0);
         mv.translate(mv.width / 2, mv.height / 2, 0);
         if (mv.mousePressed) 
         {
