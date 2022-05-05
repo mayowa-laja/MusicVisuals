@@ -8,8 +8,6 @@ public class Visualiser
     {
         this.mv = mv; 
     }
-
-    int[][] colo=new int[300][3];
     
     void draw()
     {

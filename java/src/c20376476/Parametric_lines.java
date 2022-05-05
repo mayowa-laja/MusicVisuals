@@ -65,9 +65,6 @@ public class Parametric_lines
         mv.stroke(mv.getSmoothedAmplitude() * 1000, 255, 255);
         mv.strokeWeight(5);
 
-
-        //mv.translate(mv.width/2, mv.height/2);
-
         for(int i = 0; i < NUM_LINES; i++)
         {
             mv.line(x1(t+i), y1(t+i), x2(t+i), y2(t+i));
