@@ -50,6 +50,16 @@ public class Menu extends Visual
         }
     }
 
+    public void mouseClicked() 
+    {
+        if(mode == 'm' && M_mode == '3')
+        {
+            fill(255, 0, 0);
+            rect(mouseX, mouseY, 33, 33);
+        }
+        
+    }
+
     public void draw()
     {
         try
