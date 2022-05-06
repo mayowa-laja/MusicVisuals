@@ -5,6 +5,12 @@ import ie.tudublin.VisualException;
 
 public class RotatingAudioBands extends Visual {
 
+    MyVisual mv;
+    
+    public RotatingAudioBands(MyVisual mv)
+    {
+        this.mv = mv;
+    }
 
     public void settings()
     {
