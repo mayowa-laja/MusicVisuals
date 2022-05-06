@@ -23,5 +23,8 @@ You press the space bar to start the music, you are also presented with the opti
 # What I am most proud of in the assignment
 What I(Oluwamayowa) is most proud of is my parametric_lines visual becuase it implements something that we did not learn in class. I learned how to make it using youtube and then I added the cube visual I created with help from the Processing website to get that final product.
 
+Emmanuel - I am proud of the fact that I was able to use complex maths known as the superforumla to be able to generate shapes that respond to the sound. I was difficult to get it initially but the maths was able to be simplyfied to allow it to work with minim
+
+
 # Youtube Video
 [![YouTube](https://youtu.be/owesv2MShvY)
