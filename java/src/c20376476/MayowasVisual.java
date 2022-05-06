@@ -5,7 +5,6 @@ public class MayowasVisual
     Movers m;
     Parametric_lines pl;
     Visualiser v;
-    Cube c;
     float t;
 
     public MayowasVisual(Menu menu)
@@ -18,7 +17,6 @@ public class MayowasVisual
         m = new Movers(menu);
         pl = new Parametric_lines(menu);
         v = new Visualiser(menu);
-        c = new Cube(menu);
 
     }
 
@@ -49,14 +47,6 @@ public class MayowasVisual
                 menu.textAlign(Menu.CENTER, Menu.CENTER);
                 menu.text("Currently in Mayowa's Visuals: Press 'e' to see Emmanuel's visuals and 'p' to see Providence's visuals", menu.width / 2, 50);
                 v.draw();
-                break;
-
-            case 3:
-                menu.background(0);
-                menu.textSize(25);
-                menu.textAlign(Menu.CENTER, Menu.CENTER);
-                menu.text("Currently in Mayowa's Visuals: Press 'e' to see Emmanuel's visuals and 'p' to see Providence's visuals", menu.width / 2, 50);
-                c.draw();
                 break;
 
 

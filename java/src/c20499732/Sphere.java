@@ -1,9 +1,10 @@
 package c20499732;
+import c20376476.*;
 
 public class Sphere {
-    ProviesVisual pv;
+    Menu pv;
 
-    public Sphere(ProviesVisual pv)
+    public Sphere(Menu pv)
     {
         this.pv = pv; 
     }

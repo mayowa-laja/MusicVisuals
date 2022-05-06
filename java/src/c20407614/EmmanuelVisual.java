@@ -1,12 +1,19 @@
 package c20407614;
 
 import ie.tudublin.*;
+import c20376476.*;
 
-public class EmmanuelVisual extends Visual 
+public class EmmanuelVisual
 {
-    Box b;
+    //Box b;
+    Menu menu;
     Supershape s;
     int mode= 0;
+
+    public EmmanuelVisual(Menu menu)
+    {
+        this.menu = menu;
+    }
 
     public void settings()
     {
@@ -16,26 +23,26 @@ public class EmmanuelVisual extends Visual
         //fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
-        fullScreen(P3D, SPAN); 
+        //fullScreen(P3D, SPAN); 
     }
 
     public void setup()
     {
-        startMinim();
+        /*startMinim();
                 
         // Call loadAudio to load an audio file to process 
-        loadAudio("PharrellWilliamsHappy.mp3");   
+        loadAudio("PharrellWilliamsHappy.mp3");  */ 
 
         
         // Call this instead to read audio from the microphone
         //startListening(); 
-        b = new Box(this);
-        s = new Supershape(this);
+        //b = new Box(this);
+        s = new Supershape(menu);
 
 
     }
 
-    public void keyPressed()
+    /*public void keyPressed()
     {
         if(key >= '0' && key <= '9')
         {
@@ -47,12 +54,10 @@ public class EmmanuelVisual extends Visual
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
         }
-    }
+    }*/
 
     public void draw()
-    {
-        background(0);
-        //try
+    {   //try
         //{
           //  // Call this if you want to use FFT data
             //calculateFFT(); 
@@ -60,23 +65,11 @@ public class EmmanuelVisual extends Visual
        // catch(VisualException e)
         //{
          //   e.printStackTrace();
-        //}
-        // Call this is you want to use frequency bands
-        calculateFrequencyBands(); 
+        //}  
 
-        // Call this is you want to get the average amplitude
-        calculateAverageAmplitude();    
-
-        switch(mode)
-        {
-            case 0:
-                background(0);
-                s.draw();
-                break;
-            
-
-
-        }
+        
+        menu.background(0);
+        s.draw();
     }
 
 }

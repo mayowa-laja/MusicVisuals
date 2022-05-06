@@ -2,13 +2,15 @@ package c20407614;
 
 import processing.core.*;
 import java.lang.Math;
+import c20376476.*;
 
 public class Supershape {
     EmmanuelVisual ev;
+    Menu menu;
 
-    public Supershape(EmmanuelVisual ev)
+    public Supershape(Menu menu)
     {
-        this.ev = ev;
+        this.menu = menu;
     }
 
     float t =0;
@@ -16,29 +18,29 @@ public class Supershape {
 
     public void draw()
     {
-        ev.translate(ev.width /2, ev.height/2);
-        ev.stroke(ev.getSmoothedAmplitude() * 1000, 255, 255);
-        ev.noFill();
-        ev.strokeWeight(2);
+        menu.translate(menu.width /2, menu.height/2);
+        menu.stroke(menu.getSmoothedAmplitude() * 1000, 255, 255);
+        menu.noFill();
+        menu.strokeWeight(2);
 
         
-        ev.beginShape();
+        menu.beginShape();
 
-        for (float theta =0; theta <= 2* EmmanuelVisual.PI; theta += 0.001)
+        for (float theta =0; theta <= 2* Menu.PI; theta += 0.001)
         {
             float rads = r(theta,
             2,
             2,
             20,
             1,
-            (float)(Math.sin(ev.getSmoothedAmplitude()*10)+0.5),
-            (float)(Math.cos(ev.getSmoothedAmplitude()*10)+0.5));
-            float x = rads * EmmanuelVisual.cos(theta)* 50;
-            float y = rads * EmmanuelVisual.sin(theta)* 50;
-            ev.vertex(x, y);
+            (float)(Math.sin(menu.getSmoothedAmplitude()*10)+0.5),
+            (float)(Math.cos(menu.getSmoothedAmplitude()*10)+0.5));
+            float x = rads * Menu.cos(theta)* 50;
+            float y = rads * Menu.sin(theta)* 50;
+            menu.vertex(x, y);
         }
 
-        ev.endShape();
+        menu.endShape();
     }
 
     float r(float theta,float a, float b, float m, float n1, float n2, float n3)

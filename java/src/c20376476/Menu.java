@@ -1,10 +1,15 @@
 package c20376476;
 
 import ie.tudublin.*;
+import c20407614.*;
+import c20499732.*;
 
 public class Menu extends Visual
 {
     MayowasVisual m_v = new MayowasVisual(this);
+    EmmanuelVisual e_v = new EmmanuelVisual(this);
+    ProviesVisual p_v = new ProviesVisual(this);
+
     char mode;
     int M_mode;
 
@@ -77,6 +82,8 @@ public class Menu extends Visual
         switch(mode)
         {
             case 'e':
+                e_v.setup();
+                e_v.draw();
                 break;
 
             case 'm':
@@ -85,6 +92,8 @@ public class Menu extends Visual
                 break;
 
             case 'p':
+                p_v.setup();
+                p_v.draw();
                 break;
 
 
