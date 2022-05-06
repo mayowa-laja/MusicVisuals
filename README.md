@@ -15,77 +15,10 @@ Student Number: C20407614, C20376476, C20499732
 This is an assignment that provides various visuals to the song "Happy" by Pharrell Williams.
 
 # Instructions
+You press the space bar to start the music, you are also presented with the option to press 'e', 'm' or 'p' to look at our respective visuals. If you press 'e' you are presented with a visual. If you press 'm' you are presented with a visual, you can press 0-2 to cycle through the 3 visuals. If you press 'p' you are presented with a different visual.
 
 # How it works
 You press the space bar to start the music, you are also presented with the option to press 'e', 'm' or 'p' to look at our respective visuals.
 
 # What I am most proud of in the assignment
-
-# Markdown Tutorial
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
+What I(Oluwamayowa) is most proud of is my parametric_lines visual becuase it implements something that we did not learn in class. I learned how to make it using youtube and then I added the cube visual I created with help from the Processing website to get that final product.
