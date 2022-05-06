@@ -10,7 +10,8 @@ public class Menu extends Visual
 
     public void settings()
     {
-        fullScreen(P3D, SPAN); 
+        fullScreen(P3D, SPAN);
+        //colorMode(RGB);
     }
 
     public void setup()
