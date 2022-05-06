@@ -22,3 +22,6 @@ You press the space bar to start the music, you are also presented with the opti
 
 # What I am most proud of in the assignment
 What I(Oluwamayowa) is most proud of is my parametric_lines visual becuase it implements something that we did not learn in class. I learned how to make it using youtube and then I added the cube visual I created with help from the Processing website to get that final product.
+
+# Youtube Video
+[![YouTube](https://youtu.be/owesv2MShvY)
