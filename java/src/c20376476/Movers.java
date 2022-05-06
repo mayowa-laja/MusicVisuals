@@ -4,9 +4,9 @@ import processing.core.*;
 
 public class Movers 
 {
-    MayowasVisual mv;
+    Menu mv;
 
-    public Movers(MayowasVisual mv)
+    public Movers(Menu mv)
     {
         this.mv = mv; 
     }

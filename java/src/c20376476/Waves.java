@@ -4,10 +4,10 @@ import processing.core.*;
 
 public class Waves 
 {
-    MayowasVisual mv;
+    Menu mv;
     float cy = 0;
 
-    public Waves(MayowasVisual mv)
+    public Waves(Menu mv)
     {
         this.mv = mv;
         cy = this.mv.height / 2;
