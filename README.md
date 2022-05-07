@@ -27,4 +27,4 @@ Emmanuel - I am proud of the fact that I was able to use complex maths known as 
 
 
 # Youtube Video
-[![YouTube](https://www.youtube.com/watch?v=owesv2MShvY&ab_channel=MayoLaja)
+[![YouTube](http://img.youtube.com/vi/owesv2MShvY/0.jpg)](https://www.youtube.com/watch?v=owesv2MShvY)
